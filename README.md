@@ -21,7 +21,7 @@ $ mongod &
 $ go get github.com/PaulMaddox/golang-db-pool-pattern
 
 # See it in action
-$ golang-db-pool-pattern --workers=16 --jobs=64000
+$ golang-db-pool-pattern --workers=8 --jobs=64000
 2014/04/29 16:16:30 Running 64000 jobs across 8 workers
 2014/04/29 16:16:30 Worker 0: Connecting to mongodb://localhost/worker-test
 2014/04/29 16:16:30 Worker 1: Connecting to mongodb://localhost/worker-test
