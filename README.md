@@ -1,7 +1,7 @@
 golang-db-pool-pattern
 ======================
 
-An example of a DB connection pool written in Go using a master/worker pattern.
+An example of a DB connection pool written in Go using a master/worker pattern designed for processing large batches of operations.
 
 It features:
 
